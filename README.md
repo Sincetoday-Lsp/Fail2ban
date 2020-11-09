@@ -1,6 +1,9 @@
 # Fail2ban #
 这是一个利用iptables和开源程序fail2ban来进行服务器简单防爆破的脚本。默认自带SSH防御规则。
 
+# 关于 #
+TG频道:https://t.me/JiLuMHSH
+
 # 功能 #
 - 自助修改SSH端口
 - 自定义最高封禁IP的时间（以小时为单位）
@@ -30,10 +33,6 @@
 # 更新日志 #
 - 2016.11.15 第一次提交，初步完成。
 - 2020.11.09 瞎几把汉化了一下
-
-# 关于 #
-TG频道:https://t.me/JiLuMHSH
-
 
 # 鸣谢 #
 - [Fail2ban](http://www.fail2ban.org "Fail2ban")
