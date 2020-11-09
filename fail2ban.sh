@@ -81,9 +81,9 @@ while :; do echo
 done
 ssh_port=$SSH_PORT
 echo ""
-	read -p "Input the maximun times for trying [2-10]:  " maxretry
+	read -p "输入最多尝试输入SSH连接密码的次数 [2-10]:  " maxretry
 echo ""
-read -p "Input the lasting time for blocking a IP [hours]:  " bantime
+read -p "输入每个恶意IP的封禁时间 [hours]:  " bantime
 if [ ${maxretry} == '' ]; then
 	maxretry=3
 fi
