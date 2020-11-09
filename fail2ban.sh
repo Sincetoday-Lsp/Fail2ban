@@ -53,7 +53,7 @@ echo "This Shell Script can protect your server from SSH attacks with the help o
 echo ""
 
 while :; do echo
-  read -p "Do you want to change your SSH Port? [y/n]: " IfChangeSSHPort
+  read -p "选择是否修改SSH端口? [y/n]: " IfChangeSSHPort
   if [ ${IfChangeSSHPort} == 'y' ]; then
     if [ -e "/etc/ssh/sshd_config" ];then
     [ -z "`grep ^Port /etc/ssh/sshd_config`" ] && ssh_port=22 || ssh_port=`grep ^Port /etc/ssh/sshd_config | awk '{print $2}'`
