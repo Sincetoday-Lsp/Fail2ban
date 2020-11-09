@@ -29,10 +29,11 @@
 
 # 更新日志 #
 2016.11.15 第一次提交，初步完成。
+2020.11.09 瞎几把汉化了一下
 
 # 关于 #
-Made by [FunctionClub](http://function.club "FunctionClub")
-QQ群：277717865
+TG频道:https://t.me/JiLuMHSH
+
 
 # 鸣谢 #
 - [Fail2ban](http://www.fail2ban.org "Fail2ban")
