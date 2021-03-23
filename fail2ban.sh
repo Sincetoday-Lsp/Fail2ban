@@ -157,7 +157,7 @@ if [[ ${OS} =~ ^Ubuntu$|^Debian$ ]]; then
 fi
 
 #Finish
-echo "Finish Installing ! Reboot the sshd now !"
+echo "Finish 安装成功 ! Reboot the sshd now !"
 
 if [ ${OS} == CentOS ]; then
   if [ ${CentOS_RHEL_version} == 7 ]; then
@@ -174,4 +174,4 @@ echo ""
 echo 'Telegram Group: https://t.me/JiLuMHSH'
 echo 'Github: https://github.com/FunctionClub'
 
-echo "Fail2ban已经成功运行ing!"
+echo "Fail2ban 成功运行ing !"
