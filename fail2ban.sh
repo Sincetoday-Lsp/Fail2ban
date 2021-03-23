@@ -174,4 +174,4 @@ echo ""
 echo 'Telegram Group: https://t.me/JiLuMHSH'
 echo 'Github: https://github.com/FunctionClub'
 
-echo "Fail2ban is now runing on this server now!"
+echo "Fail2ban已经成功运行ing!"
